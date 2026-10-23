@@ -1,0 +1,43 @@
+RESUMEN DE LA ACTIVIDAD AE2
+===========================
+
+1. FUENTES DE LOS DATOS
+
+CSV:
+URL de origen: https://huggingface.co/datasets/lhoestq/demo1/blob/main/data/test.csv
+Archivo importado: test.csv
+Archivo guardado: test_modificado.csv
+
+JSON:
+URL de origen: https://huggingface.co/datasets/ZHIREN001/XDomainBench/blob/main/small_dataset/detailed_report.json
+Archivo importado: detailed_report.json
+Archivo guardado: detailed_report_modificado.json
+
+2. MODIFICACIONES REALIZADAS
+
+CSV:
+Se agregó el registro registro_006.
+
+JSON:
+Se agregó o actualizó la clave 'actividad_ae2'. Valor anterior: None
+
+3. CLASES Y MÉTODOS UTILIZADOS
+
+ManejadorCSV:
+importar(), modificar(), guardar()
+
+ManejadorJSON:
+importar(), modificar(), guardar()
+
+GeneradorResumenTXT:
+generar()
+
+4. CANTIDAD DE DATOS PROCESADOS
+
+Registros CSV: 5
+Secciones principales del objeto JSON: 6
+
+5. RESULTADO
+
+Se conservaron los archivos originales y se generaron
+archivos nuevos con las modificaciones realizadas.

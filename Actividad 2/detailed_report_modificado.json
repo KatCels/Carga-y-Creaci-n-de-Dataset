@@ -1,0 +1,123 @@
+{
+    "total_scenarios": 2560,
+    "by_domain_count": {
+        "1": 405,
+        "2": 1113,
+        "3": 626,
+        "4": 416
+    },
+    "by_difficulty_pattern": {
+        "gradual_decrease": 451,
+        "stable": 588,
+        "fluctuate": 583,
+        "gradual_increase": 814,
+        "spike": 124
+    },
+    "by_weight_pattern": {
+        "stable": 1103,
+        "fluctuate": 414,
+        "gradual_shift": 638
+    },
+    "difficulty_stats": {
+        "gradual_decrease": {
+            "mean": 0.48426055854714395,
+            "std": 0.08581288611184437,
+            "min": 0.2025,
+            "max": 0.6375000000000001,
+            "count": 451
+        },
+        "stable": {
+            "mean": 0.4668216445308282,
+            "std": 0.09164868785564514,
+            "min": 0.16999999999999998,
+            "max": 0.594,
+            "count": 588
+        },
+        "fluctuate": {
+            "mean": 0.5298601786054616,
+            "std": 0.06786462000025514,
+            "min": 0.225,
+            "max": 0.66625,
+            "count": 583
+        },
+        "gradual_increase": {
+            "mean": 0.4963939686439687,
+            "std": 0.08584831327496067,
+            "min": 0.166,
+            "max": 0.6733333333333333,
+            "count": 814
+        },
+        "spike": {
+            "mean": 0.45939250512032764,
+            "std": 0.09055382667960495,
+            "min": 0.209,
+            "max": 0.6000000000000001,
+            "count": 124
+        }
+    },
+    "domain_coverage": {
+        "law": 10,
+        "physics": 24,
+        "math": 19,
+        "chemistry": 27,
+        "biology": 26,
+        "psychology": 16,
+        "music": 19,
+        "geography": 27,
+        "art": 24,
+        "history": 24,
+        "philosophy": 10,
+        "technology": 24,
+        "sports": 26,
+        "economics": 26,
+        "sociology": 10,
+        "literature": 12,
+        "medical": 19,
+        "finance": 15,
+        "engineering": 22,
+        "programming": 25,
+        "psychology+sociology": 17,
+        "biology+physics": 47,
+        "literature+philosophy": 24,
+        "economics+sociology": 68,
+        "art+music": 54,
+        "biology+medical": 48,
+        "economics+finance": 66,
+        "economics+geography": 61,
+        "history+music": 39,
+        "art+history": 37,
+        "literature+psychology": 21,
+        "psychology+technology": 51,
+        "biology+chemistry": 49,
+        "geography+history": 26,
+        "philosophy+psychology": 25,
+        "engineering+physics": 73,
+        "philosophy+sociology": 40,
+        "engineering+geography": 55,
+        "geography+sociology": 48,
+        "finance+geography": 55,
+        "economics+history": 47,
+        "art+literature": 42,
+        "chemistry+engineering": 59,
+        "engineering+finance": 61,
+        "economics+finance+geography": 64,
+        "economics+geography+history": 42,
+        "psychology+sociology+technology": 87,
+        "biology+chemistry+physics": 83,
+        "chemistry+engineering+physics": 82,
+        "philosophy+psychology+sociology": 39,
+        "economics+geography+sociology": 67,
+        "literature+philosophy+psychology": 31,
+        "economics+engineering+geography": 53,
+        "chemistry+finance+physics": 78,
+        "economics+finance+history+sociology": 36,
+        "literature+philosophy+psychology+sociology": 27,
+        "biology+chemistry+engineering+physics": 84,
+        "finance+geography+history+sociology": 28,
+        "philosophy+psychology+sociology+technology": 67,
+        "biology+chemistry+medical+physics": 85,
+        "literature+psychology+sociology+technology": 62,
+        "economics+finance+geography+sociology": 27
+    },
+    "actividad_ae2": "Se agregó este campo para demostrar la modificación del JSON."
+}
